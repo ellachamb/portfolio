@@ -20,10 +20,15 @@ body {
 }
 
 .image {
-    width: 30%;
+    width: 200px; 
     height: auto; 
     border-radius: 50%; 
-    margin: 3rem; 
+    margin: 2rem; 
+}
+
+.image-div {
+    width: 100%;  
+
 }
 
 .hero {
@@ -37,7 +42,7 @@ body {
     margin: auto;  
     text-align: center;
     padding: 1rem; 
-    margin: 7rem; 
+    margin-right: 7rem; 
 }
 
 nav ul{
