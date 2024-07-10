@@ -49,13 +49,14 @@ body {
 
 .hero-text {
     text-align: center; 
-    margin-right: 2rem; 
+    margin-right: -11rem; 
     padding: 2rem; 
     background: pink;
-    margin-left: -6rem; 
+    margin-left: 2rem; 
     font-family: "Merriweather", sans-serif;
-    box-shadow: -25px -25px  #4e4a96ac;
+    box-shadow: 25px 25px  #4e4a96ac;
     border-radius: 20px;
+    z-index: 0;
 }
 
 .hero-image {
