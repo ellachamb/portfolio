@@ -27,7 +27,7 @@ body {
     height: auto; 
     border-radius: 50%; 
     margin: 1rem; 
-    margin-left: 20rem; 
+    margin-left: 10rem; 
 }
 
 .image-div {
@@ -56,7 +56,7 @@ body {
     margin: auto;  
     text-align: center;
     padding: 1rem; 
-    margin-right: 20rem; 
+    margin-right: 10rem; 
 }
 
 nav ul{
