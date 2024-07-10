@@ -117,14 +117,6 @@ nav a:hover{
     align-items: center; 
 }
 
-.about h1 {
-    box-shadow: -15px -15px #4e4a96ac;
-    background: pink; 
-    padding: 1rem; 
-    border-radius: 20px;
-    margin: 1rem; 
-}
-
 .pixel {
     width: 80%; 
 }
@@ -170,10 +162,39 @@ h1 {
     color: rgb(33, 42, 78);
 }
 
-.projects h1 {
+h1 {
     box-shadow: -15px -15px #4e4a96ac;
     background: pink; 
     padding: 1rem; 
     border-radius: 20px;
     margin: 1rem; 
+}
+
+.contact {
+    background: #FFD9DA;
+    padding: 2rem; 
+}
+
+.contact p {
+    text-align: center; 
+}
+
+.contact a {
+    text-align: center; 
+    color: rgb(33, 42, 78); 
+    text-decoration: none; 
+
+}
+
+.contact-types {
+    display: flex; 
+    justify-content: space-evenly; 
+    padding: 2rem; 
+
+}
+
+footer {
+    background: #4e4a96ac;
+    padding: 1rem; 
+    color: rgb(33, 42, 78);
 }
