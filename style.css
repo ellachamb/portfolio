@@ -45,17 +45,17 @@ body {
     display: flex;
     align-items: center;
     /* padding: 2rem;  */
-    border-bottom: 3px solid rgb(33, 42, 78); 
 }
 
 .hero-text {
     text-align: center; 
-    margin-right: 4rem; 
+    margin-right: 2rem; 
     padding: 2rem; 
-    background: #FFD9DA;
-    margin-left: -10rem; 
+    background: pink;
+    margin-left: -6rem; 
     font-family: "Merriweather", sans-serif;
-    box-shadow: 25px 25px #4e4a96ac;
+    box-shadow: -25px -25px  #4e4a96ac;
+    border-radius: 20px;
 }
 
 .hero-image {
@@ -78,7 +78,6 @@ nav ul{
     margin: 0; 
     padding: 2rem;
     align-items: center;
-    border-bottom: 3px solid rgb(33, 42, 78); 
 }
 
 nav a{
@@ -117,6 +116,14 @@ nav a:hover{
     align-items: center; 
 }
 
+.about h1 {
+    box-shadow: -15px -15px #4e4a96ac;
+    background: pink; 
+    padding: 1rem; 
+    border-radius: 20px;
+    margin: 1rem; 
+}
+
 .pixel {
     width: 80%; 
 }
@@ -131,7 +138,6 @@ svg {
     padding: 2rem; 
     background: #FFD9DA;
     text-align: center; 
-    border-bottom: 3px solid rgb(33, 42, 78); 
 }
 
 h1 {
@@ -155,4 +161,18 @@ h1 {
     border-radius: 10px; 
     display: flex;
     justify-content: space-evenly;
+}
+
+.projects {
+    background: #4e4a96ac;
+    padding: 2rem; 
+    color: rgb(33, 42, 78);
+}
+
+.projects h1 {
+    box-shadow: -15px -15px #4e4a96ac;
+    background: pink; 
+    padding: 1rem; 
+    border-radius: 20px;
+    margin: 1rem; 
 }
