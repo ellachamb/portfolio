@@ -202,7 +202,7 @@ footer {
     color: rgb(33, 42, 78);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
     nav ul {
         flex-direction: column; 
@@ -218,11 +218,12 @@ footer {
     }
 
     .top-text {
-        margin-right: 0; 
+        margin-right: 0;  
     }
 
     .image {
         margin-left: 0; 
+        width: 200px;
     }
 
     .about {
