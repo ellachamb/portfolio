@@ -208,13 +208,13 @@ footer {
         flex-direction: column; 
     }
 
-    .hero-text {
-        margin-left: 11rem; 
-        font-size: 1.4rem;
+    h1 {
+        font-size: 1.4rem; 
     }
 
     .hero-image {
         width: 100%; 
+        overflow: hidden;
     }
 
     .top-text {
