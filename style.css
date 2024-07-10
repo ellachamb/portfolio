@@ -111,8 +111,6 @@ svg {
     padding: 2rem; 
     background: #FFD9DA;
     text-align: center; 
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .web li{
@@ -122,4 +120,13 @@ svg {
 .web {
     text-align: center; 
     align-items: center; 
+}
+
+.border {
+    border: 3px solid rgb(33, 42, 78); 
+    padding: 2rem; 
+    margin: 1rem; 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: space-evenly;
 }
