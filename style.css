@@ -182,8 +182,12 @@ h1 {
 .contact a {
     text-align: center; 
     color: rgb(33, 42, 78); 
-    text-decoration: none; 
+    text-decoration: underline; 
+}
 
+.contact a:hover {
+    color: #4e4a96ac; 
+    transition: ease-in-out 0.3s;
 }
 
 .contact-types {
