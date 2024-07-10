@@ -203,8 +203,14 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column; 
+    }
+
     .hero-text {
         margin-left: 11rem; 
+        font-size: 1.4rem;
     }
 
     .hero-image {
@@ -217,6 +223,10 @@ footer {
 
     .image {
         margin-left: 0; 
+    }
+
+    .about {
+        flex-direction: column; 
     }
 
     .header-right {
