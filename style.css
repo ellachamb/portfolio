@@ -11,11 +11,16 @@
   box-sizing: border-box; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     color: rgb(33, 42, 78); 
+    scroll-behavior: smooth;
 }
 
 .hero-image {
@@ -85,11 +90,19 @@ nav a{
     margin: 1rem; 
 }
 
+nav a:hover{
+    color: rgb(33, 42, 78); 
+    background: rgb(253, 225, 225); 
+    border-radius: 40px; 
+    transition: ease-in-out 0.5s;
+}
+
 #name {
     font-family: 'Unica One', sans-serif;
     font-size: 2rem; 
     margin: 0; 
     padding: 0; 
+    color: rgb(255, 237, 237)
 }
 
 .header-right {
