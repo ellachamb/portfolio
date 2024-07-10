@@ -51,7 +51,7 @@ body {
     text-align: center; 
     margin-right: -5rem; 
     padding: 2rem; 
-    background: pink;
+    background: #EADED7;
     margin-left: 2rem; 
     font-family: "Merriweather", sans-serif;
     box-shadow: 25px 25px  #4e4a96ac;
@@ -82,7 +82,7 @@ nav ul{
 }
 
 nav a{
-    color: rgb(255, 237, 237); 
+    color: #fffee7; 
     text-decoration: none; 
     padding: .8rem; 
     margin-top: 1rem; 
@@ -101,7 +101,7 @@ nav a:hover{
     font-size: 2rem; 
     margin: 0; 
     padding: 0; 
-    color: rgb(255, 237, 237)
+    color: #fffee7;
 }
 
 .header-right {
@@ -110,7 +110,7 @@ nav a:hover{
 }
 
 .about {  
-    background: #FFD9DA;
+    background: #fffee7;
     text-align: center; 
     margin: 0; 
     display: flex; 
@@ -129,7 +129,7 @@ svg {
 
 .skills {
     padding: 2rem; 
-    background: #FFD9DA;
+    background: #EADED7;
     text-align: center; 
 }
 
@@ -161,7 +161,6 @@ h1 {
     padding: 2rem; 
     color: rgb(33, 42, 78);
 }
-
 h1 {
     box-shadow: -15px -15px #4e4a96ac;
     background: pink; 
@@ -171,7 +170,7 @@ h1 {
 }
 
 .contact {
-    background: #FFD9DA;
+    background: #fffee7;
     padding: 2rem; 
 }
 
