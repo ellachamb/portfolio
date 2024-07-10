@@ -20,6 +20,7 @@ body {
 
 .hero-image {
     width: 100%; 
+    border-radius: 20px; 
 }
 
 .image {
@@ -36,20 +37,21 @@ body {
 }
 
 .hero {
-    background: #14142A; 
+    background: #4e4a96ac;
+    /* background: #14142A;  */
     display: grid; 
     grid-template-columns: 1fr 2fr; 
     justify-content: center;
     align-items: center;
+    padding: 3rem; 
 }
 
 .hero-text {
     text-align: center; 
-    color: rgb(255, 255, 255); 
-    margin: 2rem; 
+    color: rgb(253, 225, 225); 
+    margin: 1rem; 
     padding: 1rem; 
-    font-family: "Poppins", sans-serif;
-    font-weight: lighter; 
+    font-family: "Laila", sans-serif;
 }
 
 .top-text {
@@ -67,10 +69,11 @@ nav ul{
     margin: 0; 
     padding: 2rem;
     align-items: center;
+    border-bottom: 2px solid rgb(33, 42, 78); 
 }
 
 nav a{
-    color: rgb(255, 255, 255); 
+    color: rgb(255, 237, 237); 
     text-decoration: none; 
     padding: .8rem; 
     margin-top: 1rem; 
@@ -123,7 +126,8 @@ svg {
 }
 
 .border {
-    border: 3px solid rgb(33, 42, 78); 
+    border: 2px solid rgb(33, 42, 78); 
+    border-radius: 20px;
     padding: 2rem; 
     margin: 1rem; 
     border-radius: 10px; 
