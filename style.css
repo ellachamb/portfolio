@@ -201,3 +201,34 @@ footer {
     padding: 1rem; 
     color: rgb(33, 42, 78);
 }
+
+@media screen and (max-width: 768px) {
+    .hero-text {
+        margin-left: 11rem; 
+    }
+
+    .hero-image {
+        width: 100%; 
+    }
+
+    .top-text {
+        margin-right: 0; 
+    }
+
+    .image {
+        margin-left: 0; 
+    }
+
+    .header-right {
+        justify-content: center; 
+    }
+
+    .border {
+        flex-direction: column; 
+    }
+
+    .contact-types {
+        flex-direction: column; 
+    }
+    
+}
