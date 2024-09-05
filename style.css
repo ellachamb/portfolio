@@ -21,69 +21,94 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(33, 42, 78); 
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
 
-.image {
-    width: 300px; 
+.projectbanner {
+    background-image: url('images/projectbanner.png');
+  
+    height: 40vh;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* background-attachment: fixed; */
+  }
+
+  .parallax {
+    background-image: url('images/pixel.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; 
+  }
+
+.image{
+    width: 350px; 
     height: auto; 
     border-radius: 50%; 
     margin: 1rem; 
-    margin-left: 10rem; 
+    margin-left: 3rem; 
     margin-top: 2rem; 
-    border: 5px solid rgb(33, 42, 78); 
+    border: 2px solid rgb(64, 60, 55); 
 }
 
 .image-div {
     width: 100%;  
-
+    
 }
 
 .hero {
-    /* background: #14142A; */
-
     display: flex;
     align-items: center;
+    background: #14142A; 
 }
 
 .hero-text {
     text-align: right; 
-    /* color: #EADED7;  */
-    color: #14142A; 
-    background: #EADED7;
+    color: rgb(247, 233, 216); 
+    /* color: #14142A;  */
+    /* background: #EADED7; */
+    /* background: #4f4f81;  */
     font-family: "Raleway", sans-serif;
     box-shadow: none; 
     border-radius: 0; 
-    z-index: 0;
-    width: 50%; 
-    padding: 2rem; 
+    width: 40%; 
 }
 
 .hero-image {
     width: 100%; 
     overflow: hidden;
-    margin: 3rem; 
+    margin-left: 2rem; 
 }
 
 .top-text {
     margin: auto;  
-    text-align: center;
+    text-align: left; 
     padding: 1rem; 
-    margin-right: 10rem; 
+    margin: 0 2rem; 
 }
 
 nav ul{
     justify-content: space-between;
     display: flex; 
     list-style: none;
-    background-color: white; 
     margin: 0; 
     padding: 2rem;
     align-items: center;
+    background: #14142A;
+    /* position: fixed;
+    width: 100%; 
+    top: 0; 
+    left: 0;  */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav a{
-    color: #29235b; 
+    color: rgb(247, 233, 216); 
     text-decoration: none; 
     padding: .8rem; 
     margin-top: 1rem; 
@@ -102,12 +127,19 @@ nav a:hover{
     font-size: 2rem; 
     margin: 0; 
     padding: 0; 
-    color: #29235b;
+    color: rgb(247, 233, 216); 
 }
 
 .hero-name {
     font-family: 'Unica One', sans-serif;
-    font-size: 3rem; 
+    font-size: 3rem;
+    padding: 0;
+    margin: 0; 
+    font-weight: 400; 
+}
+
+.hero-text h3 {
+    font-weight: 400;
 }
 
 .header-right {
@@ -116,26 +148,34 @@ nav a:hover{
 }
 
 .about {  
-    background: #fffee7;
+    background: white;
     text-align: center; 
-    margin: 0; 
+    margin: 1rem; 
     display: flex; 
     align-items: center; 
+}
+
+.top-text svg {
+    margin-right: 2rem;
+}
+
+.linkedin {
+    text-decoration: none;
+    color: #4f4f81; 
+}
+
+.linkedin:hover {
+    color: #14142A; 
+    transition: ease-in-out 0.3s;
 }
 
 .pixel {
     width: 80%; 
 }
 
-svg {
-    width: 100%; 
-    margin: 0; 
-    padding: 0;
-}
-
 .skills {
     padding: 2rem; 
-    background: #EADED7;
+    
     text-align: center; 
 }
 
@@ -153,27 +193,18 @@ h1 {
 }
 
 .border {
-    border: 2px solid rgb(33, 42, 78); 
-    border-radius: 20px;
     padding: 2rem; 
-    margin: 1rem; 
-    border-radius: 10px; 
     display: flex;
     justify-content: space-evenly;
+    background: #EADED7;
+    border-radius: 30px;
+    /* border: 2px solid #4f4f81; */
 }
 
 .projects {
     background: #4e4a96ac;
-    padding: 2rem; 
     color: rgb(33, 42, 78);
 }
-/* h1 {
-    box-shadow: -15px -15px #4e4a96ac;
-    background: pink; 
-    padding: 1rem; 
-    border-radius: 20px;
-    margin: 1rem; 
-} */
 
 .contact {
     background: #fffee7;
@@ -228,13 +259,28 @@ footer {
         font-size: 1.4rem; 
     }
 
+    .hero {
+        display: block; 
+    }
+
     .hero-image {
         width: 100%; 
         overflow: hidden;
+        margin: 0; 
+    }
+
+    .hero-text {
+        width: 100%; 
+        padding: 1rem; 
+        text-align: center; 
+        margin: 0; 
     }
 
     .top-text {
         margin-right: 0;  
+        text-align: left; 
+        padding: 0 3rem; 
+
     }
 
     .image {
@@ -252,6 +298,10 @@ footer {
 
     .border {
         flex-direction: column; 
+    }
+
+    .web {
+        margin-bottom: 1rem; 
     }
 
     .contact-types {
