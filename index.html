@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <div class="name">
-                    <li><a href=#>portfolio</a></li>
+                <div class="name" data-aos="fade-zoom-in" data-aos-duration="2000">
+                    <li><a href=#><u>portfolio</u></a></li>
                 </div>
-                <div class="header-right">
+                <div class="header-right" data-aos="fade-zoom-in" data-aos-duration="2000">
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -29,14 +30,14 @@
             </div>
         </div> -->
         <div class="hero">
-            <div class="hero-text">
+            <div class="hero-text" data-aos="fade-zoom-in" data-aos-duration="2000">
                 <h3>HELLO!</h3>
                 <h1 class="hero-name">My Name is Ella.</h1>  
                 <h3>WELCOME TO MY PORTFOLIO</h3>
             </div>
-            <img class="hero-image" src="images/pixel.png" alt="Ella Chamberlain">
+            <img data-aos="fade-zoom-in" data-aos-duration="2000" class="hero-image" src="images/pixel.png" alt="Ella Chamberlain">
         </div>
-        <div class="about" id="about">
+        <div class="about" id="about" data-aos="fade-up" data-aos-duration="1000">
             <div class="image-div">
                 <div><img class="image" src="images/image.jpg" alt="Ella Chamberlain"></div>
             </div>
@@ -55,7 +56,7 @@
                   </svg> -->
             </div>
     </div>
-    <div class="skills">
+    <div class="skills" data-aos="fade-up" data-aos-duration="1000">
         <h1>Technical Skills</h1>
         <div class="border">
         <div class="web">
@@ -89,28 +90,15 @@
 </div>
 </div>
     <div class="projects" id="projects">
-        <div class="projectbanner">
+        <div class="mrschip" data-aos="fade-up" data-aos-duration="1000">
+            <a href="mrschip.html"><img class="mrschip-image" src="images/mrschip1.png" alt="Mrs. Chip Cookies"></a>
+            <div class="project-text">
+                <h1>Mrs. Chip Cookies Website</h1>
+                <p>Created website and branding for a fake cookie company called Mrs. Chip Cookies.</p>
+                <p>Click to see more details...</p>
+            </div>
         </div>
     </div>
-        <!-- <div class="projects" id="projects">
-            <h1>Website Projects</h1>
-            <div class="project1">
-                <h2>Sleep Outside Website - Frontend Development</h2>
-                <p>Collaborated with a group to create a dynamic site where customers could buy camping products.
-                    Site utilizes HTML, CSS, JavaScript, Svelte, Node.js, and a local API.</p>
-            </div>
-            <div class="project2">
-                <h2>CSE Motors - Backend Development</h2>
-                <p>Developed a motor company website through backend development using Node.js, EJS, and the Model-View,
-                    Controller design pattern.
-                    Created and implemented a database using PostgreSQL.
-                    Integrated user authentication using JWT tokens and data validation.
-                    </p>
-            </div>
-            <div class="project3">
-            </div>
-            <div class="project4"></div>
-        </div> -->
         <div class="contact" id="contact">
             <h1>Contact Me</h1>
             <div class="contact-types">
@@ -141,3 +129,8 @@
     </footer>
 </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>

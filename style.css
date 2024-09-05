@@ -180,7 +180,7 @@ nav a:hover{
 }
 
 h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Unica One', serif;
 }
 
 .web li{
@@ -190,20 +190,45 @@ h1 {
 .web {
     text-align: center; 
     align-items: center; 
+    padding: 1rem; 
 }
 
 .border {
     padding: 2rem; 
     display: flex;
     justify-content: space-evenly;
-    background: #EADED7;
+    background: #e4e0d5;
     border-radius: 30px;
     /* border: 2px solid #4f4f81; */
 }
 
-.projects {
-    background: #4e4a96ac;
-    color: rgb(33, 42, 78);
+.mrschip {
+    width: 100%; 
+    display: flex; 
+    padding: 3rem; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mrschip img {
+    width: 100%;
+    align-items: center; 
+    border-radius: 20px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.mrschip a {
+    width: 70%; 
+}
+
+a:hover img {
+    transform: scale(1.01); /* Zoom in */
+    filter: brightness(0.8); /* Darken the image */
+  }
+
+.project-text {
+    padding: 1rem 2rem; 
+    text-align: left; 
 }
 
 .contact {
