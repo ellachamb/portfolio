@@ -53,6 +53,15 @@ body {
     color: #14142A; 
   }
 
+  .typing {
+    animation: typing 4s steps(40, end);
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
 .image{
     width: 350px; 
     height: auto; 
@@ -100,6 +109,7 @@ body {
     box-shadow: none; 
     border-radius: 0; 
     width: 36%; 
+    padding-left: 1rem; 
 }
 
 .hero-image {
@@ -308,7 +318,7 @@ footer {
     height: 43vh;
     object-fit: cover; 
     display: block;
-    border: 2px solid #14142A; 
+    /* border: 2px solid #14142A;  */
   }
   
   .page-text {
@@ -329,11 +339,12 @@ footer {
     background-color: #d5d7e4; 
     padding: .6rem; 
     border-radius: 10px;
+    line-height: 3rem;
   }
 
   .page-button:hover {
     background-color: #AAA5D6; 
-    transition: .3s ease; 
+    transition: ease-in-out 0.5s;
   }
 
 @media screen and (max-width: 800px) {
