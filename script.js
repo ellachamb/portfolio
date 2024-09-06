@@ -1,6 +1,7 @@
 const text = "Welcome To My Portfolio.";
 let i = 0;
 let speed = 100; 
+let delayBeforeStart = 1000; 
 
 function typeWriter() {
   if (i < text.length) {
@@ -11,5 +12,5 @@ function typeWriter() {
 }
 
 window.onload = function() {
-  typeWriter(); 
+  setTimeout(typeWriter, delayBeforeStart);
 };

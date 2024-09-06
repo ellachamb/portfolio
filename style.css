@@ -291,18 +291,26 @@ a:hover img {
 }
 
 footer {
-    border-top: 1px solid rgb(33, 42, 78);
     padding: 1rem; 
+    background-color: #AAA5D6;
     color: rgb(33, 42, 78);
 }
 
-.titlepage {
+.branding {
     width: 100%; 
     padding: 0; 
     margin: 0; 
 }
 
-.branding img{
+.branding img {
+    width: 100%;
+    max-width: 100%; /* Ensures the image won't exceed its container's width */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
     width: 100%; 
 }
 
@@ -315,7 +323,7 @@ footer {
   
   .grid img {
     width: 100%; 
-    height: 43vh;
+    height: 50vh;
     object-fit: cover; 
     display: block;
     /* border: 2px solid #14142A;  */
@@ -335,16 +343,17 @@ footer {
 
   .page-button {
     text-decoration: none;
-    color: black; 
+    color: #4f4f81; 
     background-color: #d5d7e4; 
-    padding: .6rem; 
-    border-radius: 10px;
+    padding: 1rem; 
+    border-radius: 40px;
     line-height: 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .page-button:hover {
     background-color: #AAA5D6; 
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.3s;
   }
 
 @media screen and (max-width: 800px) {
@@ -412,6 +421,10 @@ footer {
 
     .contact-types {
         flex-direction: column; 
+    }
+
+    .grid {
+        display: block; 
     }
     
 }
