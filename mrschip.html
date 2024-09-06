@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="page-nav">
                 <div class="name">
                     <li><a href="index.html"><u>portfolio</u></a></li>
                 </div>
@@ -22,19 +23,37 @@
         </nav>
     </header>
     <main>
-        <h1>Mrs. Chip Cookie Company</h1>
-        <p>I created a fake cookie company called Mrs. Chip cookies, with a unique branding and visual identity.</p>
-        <p><b>Components</b></p>
-        <p>Frontend Static Website</p>
-        <p>Logo</p>
-        <p>Mascot</p>
-        <p>Social Media Mockup</p>
-        <p><b>Tools</b></p>
-        <p>HTML</p>
-        <p>SCSS</p>
-        <p>Node.js</p>
-        <p>Adobe Illustrator</p>
-        <p>Figma</p>
+        <div class="grid">
+            <img data-aos="fade-up" data-aos-duration="1000" src="images/mrschip1.png" alt="Mrs. Chip Website">
+            <img data-aos="fade-up" data-aos-duration="1000" src="images/mrschip2.png" alt="Mrs. Chip Website">
+            <img data-aos="fade-up" data-aos-duration="1000" src="images/mrschip3.png" alt="Mrs. Chip Website">
+            <img data-aos="fade-up" data-aos-duration="1000" src="images/mrschip4.png" alt="Mrs. Chip Website">
+        </div>
+        <div class="page-text" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Mrs. Chip Cookie Company Website</h1>
+            <p>Mrs. Chip Cookies is a ficticious bakery that has a distinct, playful brand identity. </p>
+            <a class="page-button" href="https://ellachamb.github.io/css/mrschip/public/index.html" target="_blank">SEE THE WEBSITE</a>
+            <div class="page-div">
+                <div>
+                    <p><b>Components</b></p>
+                    <p>Frontend Static Website</p>
+                    <p>Logo</p>
+                    <p>Mascot</p>
+                    <p>Social Media Mockup</p>
+                </div>
+                <div>
+                    <p><b>Tools</b></p>
+                    <p>HTML</p>
+                    <p>SCSS</p>
+                    <p>Node.js</p>
+                    <p>Adobe Illustrator</p>
+                    <p>Figma</p>
+                </div>
+            </div>
+        </div>
+        <div class="branding">
+            <img data-aos="fade-up" data-aos-duration="1000" src="images/chipbranding.png" alt="Mrs. Chip Branding">
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 Ella Chamberlain</p>
@@ -42,3 +61,8 @@
     
 </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>

@@ -27,13 +27,12 @@ body {
 .projectbanner {
     background-image: url('images/projectbanner.png');
   
-    height: 40vh;
+    height: 50vh;
   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   
-    /* background-attachment: fixed; */
   }
 
   .parallax {
@@ -44,6 +43,14 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0; 
+  }
+
+  .page-nav{
+    background-color: white; 
+  }
+
+  .page-nav a {
+    color: #14142A; 
   }
 
 .image{
@@ -61,6 +68,22 @@ body {
     
 }
 
+.cursor {
+    display: inline-block;
+    margin-bottom: -.1rem;
+    margin-left: .3rem;
+    width: 2px;
+    height: 2.3rem;
+    background-color: rgb(247, 233, 216); 
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -76,7 +99,7 @@ body {
     font-family: "Raleway", sans-serif;
     box-shadow: none; 
     border-radius: 0; 
-    width: 40%; 
+    width: 36%; 
 }
 
 .hero-image {
@@ -104,7 +127,6 @@ nav ul{
     width: 100%; 
     top: 0; 
     left: 0;  */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav a{
@@ -117,7 +139,7 @@ nav a{
 
 nav a:hover{
     color: rgb(33, 42, 78); 
-    background: rgb(253, 225, 225); 
+    background: #d5d7e4; 
     border-radius: 40px; 
     transition: ease-in-out 0.5s;
 }
@@ -197,7 +219,7 @@ h1 {
     padding: 2rem; 
     display: flex;
     justify-content: space-evenly;
-    background: #e4e0d5;
+    background: #d5d7e4;
     border-radius: 30px;
     /* border: 2px solid #4f4f81; */
 }
@@ -223,7 +245,7 @@ h1 {
 
 a:hover img {
     transform: scale(1.01); /* Zoom in */
-    filter: brightness(0.8); /* Darken the image */
+    filter: brightness(0.8); 
   }
 
 .project-text {
@@ -259,7 +281,7 @@ a:hover img {
 }
 
 footer {
-    background: #4e4a96ac;
+    border-top: 1px solid rgb(33, 42, 78);
     padding: 1rem; 
     color: rgb(33, 42, 78);
 }
@@ -269,6 +291,50 @@ footer {
     padding: 0; 
     margin: 0; 
 }
+
+.branding img{
+    width: 100%; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    width: 100%; 
+    margin: 1rem 0;
+  }
+  
+  .grid img {
+    width: 100%; 
+    height: 43vh;
+    object-fit: cover; 
+    display: block;
+    border: 2px solid #14142A; 
+  }
+  
+  .page-text {
+    width: 100%; 
+    text-align: center; 
+    padding: 1rem; 
+  }
+
+  .page-div {
+    width: 100%; 
+    display: flex; 
+    justify-content: space-around;
+  }
+
+  .page-button {
+    text-decoration: none;
+    color: black; 
+    background-color: #d5d7e4; 
+    padding: .6rem; 
+    border-radius: 10px;
+  }
+
+  .page-button:hover {
+    background-color: #AAA5D6; 
+    transition: .3s ease; 
+  }
 
 @media screen and (max-width: 800px) {
 
@@ -315,6 +381,10 @@ footer {
 
     .about {
         flex-direction: column; 
+    }
+
+    .projectbanner {
+        height: 30vh; 
     }
 
     .header-right {
