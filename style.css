@@ -25,7 +25,7 @@ body {
 }
 
 .projectbanner {
-    background-image: url('images/projectbanner.png');
+    background-image: url('images/projectbanner.gif');
   
     height: 50vh;
   
@@ -229,9 +229,9 @@ h1 {
     padding: 2rem; 
     display: flex;
     justify-content: space-evenly;
-    background: #d5d7e4;
+    /* background: #d5d7e4; */
     border-radius: 30px;
-    /* border: 2px solid #4f4f81; */
+    border: 2px solid #4f4f81;
 }
 
 .mrschip {
@@ -243,7 +243,8 @@ h1 {
 }
 
 .mrschip img {
-    width: 100%;
+    max-width: 100%; 
+    margin: auto; 
     align-items: center; 
     border-radius: 20px;
     transition: transform 0.3s ease, filter 0.3s ease;
@@ -261,6 +262,7 @@ a:hover img {
 .project-text {
     padding: 1rem 2rem; 
     text-align: left; 
+    width: 70%; 
 }
 
 .contact {
@@ -310,7 +312,7 @@ footer {
 
 .brand-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: 1.3fr .98fr 1.03fr; 
     width: 100%; 
 }
 
@@ -354,6 +356,12 @@ footer {
   .page-button:hover {
     background-color: #AAA5D6; 
     transition: ease-in-out 0.3s;
+  }
+  .page-main {
+    width: 100%; 
+  }
+  .page-main img{
+   width: 100%; 
   }
 
 @media screen and (max-width: 800px) {
