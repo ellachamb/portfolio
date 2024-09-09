@@ -316,6 +316,12 @@ footer {
     width: 100%; 
 }
 
+.brand-grid2 {
+    display: grid;
+    grid-template-columns: 1.63fr 1fr 1.14fr; 
+    width: 100%; 
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
