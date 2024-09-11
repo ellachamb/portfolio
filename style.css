@@ -266,8 +266,7 @@ a:hover img {
 }
 
 .contact {
-    background: #fffee7;
-    padding: 2rem; 
+    padding: 2rem 4rem; 
 }
 
 .contact p {
@@ -322,6 +321,24 @@ footer {
     width: 100%; 
 }
 
+.brand-grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    width: 100%; 
+}
+
+.grid2 {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    width: 100%; 
+}
+
+.grid3 {
+    display: grid; 
+    grid-template-columns: 1fr 1.4fr; 
+    width: 100%; 
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
@@ -340,7 +357,7 @@ footer {
   .page-text {
     width: 100%; 
     text-align: center; 
-    padding: 1rem; 
+    padding: 1rem 4rem; 
   }
 
   .page-div {
@@ -441,4 +458,37 @@ footer {
         display: block; 
     }
     
+    .mrschip {
+        flex-direction: column; 
+        padding: 1rem; 
+    }
+
+    .project-text {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .page-div {
+        flex-direction: column; 
+    }
+
+    .brand-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .grid2 {
+        grid-template-columns: 1fr; 
+    }
+
+    .grid3 {
+        grid-template-columns: 1fr; 
+    }
+
+    .brand-grid3 {
+        grid-template-columns: 1fr; 
+    }
+
+    .brand-grid2 {
+        grid-template-columns: 1fr; 
+    }
 }
