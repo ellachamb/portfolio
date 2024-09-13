@@ -311,7 +311,7 @@ footer {
 
 .brand-grid {
     display: grid;
-    grid-template-columns: 1.3fr .98fr 1.03fr; 
+    grid-template-columns: 1.3fr 1.03fr; 
     width: 100%; 
 }
 
