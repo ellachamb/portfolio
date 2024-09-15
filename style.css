@@ -237,7 +237,7 @@ h1 {
 .mrschip {
     width: 100%; 
     display: flex; 
-    padding: 3rem; 
+    padding: 1.5rem 3rem ; 
     align-items: center;
     justify-content: space-evenly;
 }
