@@ -339,6 +339,12 @@ footer {
     width: 100%; 
 }
 
+.brand-grid5 {
+    display: grid;
+    grid-template-columns: 1.335fr 1fr; 
+    width: 100%; 
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
@@ -391,6 +397,10 @@ footer {
 
     nav ul {
         flex-direction: column;
+    }
+
+    nav li {
+        padding-top: 1.5rem; 
     }
 
     #name {
@@ -490,5 +500,9 @@ footer {
 
     .brand-grid2 {
         grid-template-columns: 1fr; 
+    }
+
+    .brand-grid5 {
+        grid-template-columns: 1fr;
     }
 }
