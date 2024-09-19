@@ -339,6 +339,12 @@ footer {
     width: 100%; 
 }
 
+.brand-grid4 {
+    display: grid; 
+    width: 100%; 
+    grid-template-columns: 1.125fr 1fr 1fr; 
+}
+
 .brand-grid5 {
     display: grid;
     grid-template-columns: 1.335fr 1fr; 
