@@ -508,6 +508,10 @@ footer {
         grid-template-columns: 1fr; 
     }
 
+    .brand-grid4 {
+        grid-template-columns: 1fr; 
+    }
+
     .brand-grid5 {
         grid-template-columns: 1fr;
     }
