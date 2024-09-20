@@ -309,6 +309,17 @@ footer {
     height: auto; /* Keeps the aspect ratio */
 }
 
+.logo-branding {
+    width: 100%; 
+    text-align: center; 
+}
+
+.logo-branding img {
+    max-width: 100%; 
+    padding: 1rem 3rem; 
+    height: auto; 
+}
+
 .brand-grid {
     display: grid;
     grid-template-columns: 1.3fr 1.03fr; 
