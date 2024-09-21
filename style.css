@@ -126,6 +126,7 @@ body {
 }
 
 nav ul{
+    text-align: center; 
     justify-content: space-between;
     display: flex; 
     list-style: none;
@@ -318,6 +319,13 @@ footer {
     max-width: 100%; 
     padding: 1rem 3rem; 
     height: auto; 
+}
+
+#backend {
+    text-align: center; 
+    background-color: #4f4f81;
+    padding: 2rem; 
+    color:white; 
 }
 
 .brand-grid {
