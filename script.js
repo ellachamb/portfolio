@@ -1,16 +1,16 @@
-const text = "Welcome To My Portfolio.";
-let i = 0;
-let speed = 100; 
-let delayBeforeStart = 1000; 
+document.addEventListener("DOMContentLoaded", function() {
+  const text = "Welcome To My Portfolio.";
+  let i = 0;
+  const speed = 100; 
+  const delayBeforeStart = 1000; 
 
-function typeWriter() {
-  if (i < text.length) {
-    document.getElementById("typing-text").innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById("typing-text").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
   }
-}
 
-window.onload = function() {
   setTimeout(typeWriter, delayBeforeStart);
-};
+});
