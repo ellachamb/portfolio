@@ -24,15 +24,8 @@ body {
     scroll-behavior: smooth; 
 }
 
-.projectbanner {
-    background-image: url('images/projectbanner.gif');
-  
-    height: 50vh;
-  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+.projectbanner img{
+    width: 100%; 
   }
 
   .parallax {
