@@ -295,7 +295,8 @@ a:hover img {
 footer {
     padding: 1rem; 
     background-color: #AAA5D6;
-    color: rgb(33, 42, 78);
+    color: white; 
+    text-align: center;
 }
 
 .branding {
@@ -352,6 +353,21 @@ footer {
     width: 100%; 
 }
 
+.straightdown {
+    display: block; 
+    max-width: 700px;  
+    height: auto;
+    margin: 0 auto;
+    padding: 0;  
+}
+
+.straightdown img {
+    max-width: 100%;    
+}
+
+.ux {
+    width: 100%; 
+}
 .grid3 {
     display: grid; 
     grid-template-columns: 1fr 1.4fr; 
