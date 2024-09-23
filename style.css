@@ -483,10 +483,6 @@ footer {
         flex-direction: column; 
     }
 
-    .projectbanner {
-        height: 30vh; 
-    }
-
     .header-right {
         justify-content: center; 
     }
