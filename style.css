@@ -366,6 +366,10 @@ footer {
     max-width: 100%;    
 }
 
+.project-text a {
+    color: #4f4f81; 
+}
+
 .ux {
     width: 100%; 
 }
