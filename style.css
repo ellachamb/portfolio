@@ -355,6 +355,19 @@ footer {
     text-align: center;
 }
 
+.straightdownposter {
+    display: block; 
+    max-width: 500px;  
+    height: auto;
+    margin: 0 auto;
+    padding: 0;  
+    text-align: center;
+} 
+
+.straightdownposter img {
+    border: 1px solid black;    
+}
+
 .straightdown img {
     max-width: 100%;    
 }
