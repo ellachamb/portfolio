@@ -355,7 +355,7 @@ footer {
     text-align: center;
 }
 
-.straightdownposter {
+.change {
     display: block; 
     max-width: 400px;  
     height: auto;
@@ -364,7 +364,7 @@ footer {
     text-align: center;
 } 
 
-.straightdownposter img {
+.change img {
     border: 1px solid black;    
 }
 
