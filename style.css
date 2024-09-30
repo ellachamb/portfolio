@@ -346,6 +346,15 @@ footer {
     width: 100%; 
 }
 
+#poster img {
+    box-shadow: 2px 2px 9px gray;
+}
+
+#poster {
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
 .straightdown {
     display: block; 
     max-width: 700px;  
@@ -353,19 +362,6 @@ footer {
     margin: 0 auto;
     padding: 0;  
     text-align: center;
-}
-
-.change {
-    display: block; 
-    max-width: 400px;  
-    height: auto;
-    margin: 0 auto;
-    padding: 0;  
-    text-align: center;
-} 
-
-.change img {
-    border: 1px solid black;    
 }
 
 .straightdown img {
