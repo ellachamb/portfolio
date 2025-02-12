@@ -179,6 +179,9 @@ nav a:hover{
     margin: 1rem; 
     display: flex; 
     align-items: center; 
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 3rem; 
 }
 
 .top-text svg {
@@ -201,7 +204,8 @@ nav a:hover{
 
 .skills {
     padding: 2rem; 
-    
+    max-width: 1500px; 
+    margin: auto; 
     text-align: center; 
 }
 
@@ -230,7 +234,6 @@ h1 {
 
 .mrschip {
     width: 100%; 
-    display: flex; 
     padding: 1.5rem 3rem ; 
     align-items: center;
     justify-content: space-evenly;
@@ -249,18 +252,31 @@ h1 {
 }
 
 a:hover img {
-    transform: scale(1.01); /* Zoom in */
+    transform: scale(1.02); /* Zoom in */
     filter: brightness(0.8); 
   }
 
 .project-text {
-    padding: 1rem 2rem; 
-    text-align: left; 
-    width: 70%; 
+    padding: 0rem 1rem; 
+    text-align: center;
+}
+
+.projects {
+    max-width: 1500px; 
+    margin: auto; 
+}
+
+.projectgrid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;  
+    gap: 1rem; 
+    padding: 1rem; 
 }
 
 .contact {
     padding: 2rem 4rem; 
+    max-width: 1500px; 
+    margin: auto; 
 }
 
 .contact p {
@@ -296,6 +312,8 @@ footer {
     width: 100%; 
     padding: 0; 
     margin: 0; 
+    max-width: 1500px;
+    margin: auto;
 }
 
 .branding img {
@@ -382,8 +400,14 @@ footer {
 }
 
 .ux {
-    width: 100%; 
+    width: 100%;
 }
+
+.ux-div {
+    max-width: 1500px; 
+    margin: auto; 
+}
+
 .grid3 {
     display: grid; 
     grid-template-columns: 1fr 1.4fr; 
@@ -420,7 +444,7 @@ footer {
   .page-text {
     width: 100%; 
     text-align: center; 
-    padding: 1rem 4rem; 
+    padding: 4rem 4rem; 
   }
 
   .page-div {
@@ -486,9 +510,8 @@ footer {
     }
 
     .top-text {
-        margin-right: 0;  
-        text-align: left; 
-        padding: 0 3rem; 
+        text-align: center; 
+        padding: 0 1rem; 
 
     }
 
@@ -571,5 +594,13 @@ footer {
         width: 100%; 
         display: block;
         /* border: 2px solid #14142A;  */
+      }
+
+      .page-text {
+        padding: 1rem; 
+      }
+
+      .projectgrid {
+        grid-template-columns: 1fr; 
       }
 }
