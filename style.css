@@ -272,6 +272,15 @@ a:hover img {
     padding: 1rem; 
 }
 
+.projectgrid6 {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; 
+    padding: 1rem; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
 
 .grid1 {
     max-width: 1200px;
@@ -622,5 +631,9 @@ footer {
 
       .projectgrid {
         grid-template-columns: 1fr; 
+      }
+
+      .projectgrid6 {
+        grid-template-columns: 1fr;
       }
 }
