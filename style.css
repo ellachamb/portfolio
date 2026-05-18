@@ -148,7 +148,7 @@ nav a:hover{
 }
 
 .name {
-    font-family: 'Unica One', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 2rem; 
     margin: 0; 
     padding: 0; 
@@ -209,7 +209,8 @@ nav a:hover{
 }
 
 h1 {
-    font-family: 'Unica One', serif;
+    font-family: 'raleway', serif;
+    font-weight: 600;
 }
 
 .web li{
@@ -246,11 +247,34 @@ h1 {
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
+.work-image {
+    width: 100%; 
+    padding: 1.5rem 3rem ; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.work-hover-section {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.work-image img {
+    width: 100%; 
+    margin: auto; 
+    align-items: center; 
+    border-radius: 0px 0px 20px 20px;
+}
+
 .mrschip a {
     width: 70%; 
 }
 
-a:hover img {
+.mrschip-image:hover {
+    transform: scale(1.02); /* Zoom in */
+    filter: brightness(0.8); 
+  }
+
+.work-hover-section:hover {
     transform: scale(1.02); /* Zoom in */
     filter: brightness(0.8); 
   }
@@ -276,6 +300,24 @@ a:hover img {
     display: grid; 
     grid-template-columns: 1fr 1fr;
     gap: 1rem; 
+    padding: 1rem; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.casestudygrid {
+    display: grid; 
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2rem; 
+    padding: 1rem; 
+    max-width: 1000px; 
+    margin: auto;
+}
+
+.appgrid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem; 
     padding: 1rem; 
     max-width: 1000px; 
     margin: auto;
@@ -497,6 +539,18 @@ footer {
   }
   .page-main img{
    width: 100%; 
+  }
+
+  .top-section {
+    text-align: center; 
+    font-weight: 800; 
+    font-size: 1.2em; 
+    background-color: #4f4f81;
+    padding: 1em; 
+    padding-bottom: 1.5em;
+    margin-bottom: -.5em; 
+    color: white; 
+    border-radius: 20px 20px 0 0;
   }
 
 @media screen and (max-width: 800px) {
