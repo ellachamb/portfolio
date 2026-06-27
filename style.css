@@ -690,4 +690,12 @@ footer {
       .projectgrid6 {
         grid-template-columns: 1fr;
       }
+      
+      .casestudygrid {
+        grid-template-columns: 1fr;
+      }
+
+      .work-image {
+        padding: 0;
+      }
 }
