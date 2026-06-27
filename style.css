@@ -460,6 +460,18 @@ footer {
     max-width: 100%;    
 }
 
+.straightdown2 {
+    display: block; 
+    max-width: 1000px;  
+    height: auto;
+    margin: 0 auto;
+    padding: 0;  
+    text-align: center;
+}
+.straightdown2 img {
+    max-width: 100%;    
+}
+
 .project-text a {
     color: #4f4f81; 
 }
