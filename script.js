@@ -14,3 +14,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
   setTimeout(typeWriter, delayBeforeStart);
 });
+
+const cards = document.querySelectorAll('.card');
+const MAX_TILT = 10;
+
+cards.forEach(card => {
+  card.addEventListener('mousemove', (e) => {
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const percentX = (x / rect.width) - 0.5;
+    const percentY = (y / rect.height) - 0.5;
+
+    const rotateY = percentX * MAX_TILT * 2;
+    const rotateX = percentY * -MAX_TILT * 2;
+
+    card.style.transform = `perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+  });
+
+  card.addEventListener('mouseleave', () => {
+    card.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg)';
+  });
+});

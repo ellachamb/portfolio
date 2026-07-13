@@ -143,8 +143,7 @@ nav a{
 nav a:hover{
     color: rgb(33, 42, 78); 
     background: #d5d7e4; 
-    border-radius: 40px; 
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.4s;
 }
 
 .name {
@@ -359,7 +358,7 @@ h1 {
 
 footer {
     padding: 1rem; 
-    background-color: #AAA5D6;
+    background-color: #6969B2;
     color: white; 
     text-align: center;
 }
@@ -564,7 +563,132 @@ footer {
     color: white; 
     border-radius: 20px 20px 0 0;
   }
+  
+:root {
+  --purple: #403A96;
+  --purple-deep: #45226A;
+  --purple-accent: #C9A6E8;
+  --pink: #9D4B7E;
+  --pink-deep: #72325C;
+  --pink-accent: #F0B8D8;
+  --cream: #F2EFE9;
+}
 
+.card-row {
+  display: flex;
+  gap: 150px;
+  flex-wrap: wrap;
+  justify-content: center;
+  perspective: 1200px;
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  transform-style: preserve-3d;
+  transition: transform 0.15s ease-out;
+}
+
+.card-inner {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-photo {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card--web .card-photo {
+  background-image: url('images/UX.png');
+}
+
+.card--graphic .card-photo {
+  background-image: url('images/menumockup.png');
+}
+
+.card-gradient {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.card--web .card-gradient {
+  background: linear-gradient(to top right,
+    rgba(64, 58, 150, 0.90) 0%,
+    rgba(64, 58, 150, 0.70) 100%);
+}
+
+.card--graphic .card-gradient {
+  background: linear-gradient(to top right,
+    rgba(157, 75, 126, 0.90) 0%,
+    rgba(157, 75, 126, 0.70) 100%);
+}
+
+.card-color {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card--web .card-color { background: var(--purple); }
+.card--graphic .card-color { background: var(--pink); }
+
+.card:hover .card-color {
+  opacity: 1;
+}
+
+.card-bottom-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.card-title {
+  font-family: 'Raleway', serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--cream);
+  margin: 0;
+}
+
+.card-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-arrow {
+  transform: translateX(10px);
+}
+
+.card-arrow svg {
+  width: 60px;
+  height: 60px;
+  stroke: var(--cream);
+}
+  
 @media screen and (max-width: 800px) {
 
     nav ul {
